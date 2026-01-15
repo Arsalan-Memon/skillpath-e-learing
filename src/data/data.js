@@ -233,7 +233,7 @@ export const contactInfo = [
   {
     id: 2,
     icon: RiMailSendFill,
-    label: "+91 91813 23 2309",
+    label: "+92 123-4567890",
   },
   {
     id: 3,

@@ -30,6 +30,11 @@ const Testimonials = () => {
             },
           }}
           loop={true}
+          autoplay={{
+            delay: 3000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
           navigation={{
             prevEl: ".prev-btn",
             nextEl: ".next-btn",
@@ -55,7 +60,9 @@ const Testimonials = () => {
                   <p className="font-medium">{item.author}</p>
                 </div>
               </div>
-              <button className="secondary-btn">Read Full Story</button>
+              <button className="secondary-btn border border-white-95">
+                Read Full Story
+              </button>
             </SwiperSlide>
           ))}
         </Swiper>
